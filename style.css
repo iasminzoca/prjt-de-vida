@@ -5,8 +5,8 @@
     --verde: #5976d6;
     --branco: #FFFFFF;
     --botao-ativo: #000000;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(87, 83, 128, 0.3);
+    --botao-inativo: rgba(39, 36, 66, 0.5);
+    --texto-fundo: rgba(26, 24, 51, 0.3);
 }
 
 body {
@@ -50,6 +50,7 @@ body {
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
+    transition: 1s
 }
 
 .botao:first-child {
